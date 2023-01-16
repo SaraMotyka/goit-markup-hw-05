@@ -95,12 +95,6 @@
                     <button data-modal-open class="first-button" type="button">
                         Zamów usługę
                     </button>
-
-                    <div class="modal is-hidden" data-modal>
-                        <button data-modal-close class="second-button">
-                            <div class="cross">x</div>
-                        </button>
-                    </div>
                 </div>
 
                 <div class="container section-main">
@@ -787,6 +781,13 @@
                 </div>
             </div>
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal-window">
+                <button type="button" class="btn-close" data-modal-close>
+                    <div class="cross">x</div>
+                </button>
+            </div>
+        </div>
         <script src="./js/modal.js"></script>
     </body>
 </html>
